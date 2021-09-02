@@ -47,15 +47,15 @@ seguintes propriedades (os valores devem ser do tipo mostrado abaixo):
 - `assentos` - Number - cinco por padrão
 - `quantidadePessoas` - Number - zero por padrão
 */
-var carro = function() {
-    carro.marca = 'Toyota';
-    carro.modelo = 'Tundra';
-    carro.placa = 'TXINVSTR';
-    carro.ano = 2021;
-    carro.cor = 'Azul';
-    carro.quantasPortas = 4;
-    carro.assentos = 5;
-    carro.quantidadePessoas = 0;
+var carro = {
+    marca: 'Toyota',
+    modelo: 'Tundra',
+    placa: 'TXINVSTR',
+    ano: 2021,
+    cor: 'Azul',
+    quantasPortas: 4,
+    assentos: 5,
+    quantidadePessoas: 0
 };
 
 /*
