@@ -22,7 +22,18 @@ isTruthy('');
 /*
 Invoque a função criada acima passando como parâmetro 10 valores `truthy`.
 */
-?
+
+isTruthy('javier');
+isTruthy({});
+isTruthy(Infinity);
+isTruthy([]);
+isTruthy(function() {});
+isTruthy(8*8);
+isTruthy(8);
+isTruthy(8.0);
+isTruthy(Array);
+isTruthy(true);
+isTruthy(-8.0);
 
 /*
 Declare uma variável chamada `carro`, atribuindo à ela um objeto com as
