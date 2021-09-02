@@ -105,7 +105,20 @@ mostrar quantos assentos ainda podem ser ocupados, com a frase:
 citado acima, no lugar de "pessoas".
 */
 carro.adicionarPessoas = function( numeroPessoas ) {
-        return 'Ja temos ' + carro.quantidadePessoas + ' pessoas no carro!';
+    var totalPessoas = carro.quantidadePessoas + numeroPessoas;
+    if( carro.quantidadePessoas === carro.assentos && totalPessoas >= carro.assentos ) {
+        return 'O carro ja esta lotado!';
+    }
+
+    if( totalPessoas > carro.assentos ) {
+        var quantasPessoasCabem = carro.assentos - carro.quantidadePessoas;
+        var pluralOuSingular = quantasPessoasCabem === 1 ? ' pessoa' : ' pessoas';
+        return 'So cabem mais ' + quantasPessoasCabem + pluralOuSingular + '!';
+
+    }
+
+    carro.quantidadePessoas += numeroPessoas;
+    return 'Ja temos ' + carro.quantidadePessoas + ' pessoas no carro!';
 };
 
 /*
@@ -116,38 +129,38 @@ retornar algum valor.
 
 Qual a cor atual do carro?
 */
-?
+carro.obterCor(); // 'Azul'
 
 // Mude a cor do carro para vermelho.
-?
+carro.mudarCor('Vermelho'); 
 
 // E agora, qual a cor do carro?
-?
+carro.obterCor(); //'Vermelho'
 
 // Mude a cor do carro para verde musgo.
-?
+carro.mudarCor('verde musgo'); 
 
 // E agora, qual a cor do carro?
-?
+carro.obterCor(); // 'verde musgo'
 
 // Qual a marca e modelo do carro?
-?
+carro.obterMarcaModelo(); //'Esse carro e um Toyota Tundra'
 
 // Adicione 2 pessoas no carro.
-?
+carro.adicionarPessoas(2); //'Ja temos 2 pessoas no carro!'
 
 // Adicione mais 4 pessoas no carro.
-?
+carro.adicionarPessoas(4); //'So cabem mais 3 pessoas!'
 
 // Faça o carro encher.
-?
+carro.adicionarPessoas(3); //'Ja temos 5 pessoas no carro!'
 
 // Tire 4 pessoas do carro.
-?
+carro.adicionarPessoas(-4); //'Ja temos 1 pessoas no carro!'
 
 // Adicione 10 pessoas no carro.
-?
+carro.adicionarPessoas(10); //'So cabem mais 4 pessoas!'
 
 // Quantas pessoas temos no carro?
-?
+1
 ```
