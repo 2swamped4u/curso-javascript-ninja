@@ -74,7 +74,7 @@ function calculator( operacao_matematica ) {
       result = x % y;
       break;
       default:
-      return 'Operação inválida!';
+      return 'Operação inválida.';
     }
     return 'Resultado da operação: ' + x + ' ' + operacao_matematica + ' ' + y + ' = ' + result + '.';
   };
