@@ -12,13 +12,15 @@ Invoque a função criada acima, passando dois números que serão somados, e mo
 o resultado no console, com a frase:
 "A soma de [VALOR 1] e [VALOR2] é igual a [RESULTADO]."
 */
-console.log( 'A soma de ' + 2 + ' e ' + 3 + ' é igual a '+ sum(2,3) + '.' );
+var valeu1 = 2;
+var valeu2 = 3;
+console.log( 'A soma de ' + value1 + ' e ' + valeu2 + ' é igual a '+ sum( valeu1, valeu2 ) + '.' );
 
 /*
 Mostre no console o nome da função criada acima, com a frase:
 "O nome da função que faz a soma é [NOME DA FUNÇÃO]."
 */
-console.log('O nome da função que faz a soma é ' + 'calculateSum' + '.');
+console.log('O nome da função que faz a soma é ' + sum.name + '.');
 
 /*
 Crie uma função literal chamada `showName`. Essa função deve retornar o
