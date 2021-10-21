@@ -3,7 +3,10 @@ Crie uma IIFE que envolva todo o código desse arquivo. Faça também a
 indentação correta do código, para ficar dentro da IIFE.
 */
 
-function(){}
+function(){
+
+
+}
 
 /*
 Analise as funções abaixo (`myFunction`, `myFunction2` e `myFunction3`, e
