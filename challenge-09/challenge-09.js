@@ -3,8 +3,7 @@ Crie uma IIFE que envolva todo o código desse arquivo. Faça também a
 indentação correta do código, para ficar dentro da IIFE.
 */
 
-function() {}
-
+fdsjkfsdjf;ldsj;lkfjsd
 
 function(){
 
