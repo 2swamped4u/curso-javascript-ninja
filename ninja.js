@@ -23,7 +23,7 @@
 console.log( myFunction() );
 */
 
-function myFunction() {
+/* function myFunction() {
 	var number1 = 10;
 	var number2 = 10;
 	function sum() {
@@ -37,3 +37,7 @@ function myFunction() {
 }
 
 console.log( myFunction() );
+*/
+(function() {
+	console.log( 1 + 2 );
+}());
