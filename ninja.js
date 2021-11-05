@@ -4,10 +4,8 @@
 	var sum = undefined;
 	return sum();
 	sum = function sum() {
-
 		...
 	}
-
 }*/
 
 //----------
@@ -19,25 +17,23 @@
 	console.log(sum());
 	console.log(sum());
 }
-
 console.log( myFunction() );
 */
 
-/* function myFunction() {
+/*function myFunction() {
 	var number1 = 10;
 	var number2 = 10;
 	function sum() {
 	return number1 + number2;
-
 	}
 	if( sum() === 20){
 		return 'equal to 20';
 	}
 	return 'no change ';
 }
-
 console.log( myFunction() );
 */
+
 (function() {
 	console.log( 1 + 2 );
 }());
