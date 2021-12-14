@@ -3,8 +3,7 @@ Crie uma IIFE que envolva todo o código desse arquivo. Faça também a
 indentação correta do código, para ficar dentro da IIFE.
 */
 
-console.log("hello whats up guys");
-
+console.log("hello whats up");
 /*
 Analise as funções abaixo (`myFunction`, `myFunction2` e `myFunction3`, e
 ajuste o posicionamento das variáveis e funções internas, para que os códigos
