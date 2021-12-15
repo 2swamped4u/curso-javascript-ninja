@@ -88,7 +88,7 @@ anônima tem como seus argumentos.
 console.log( 'O resultado da soma é:' );
 console.log(sum(function (number1, number2) {
     return number1 + number2;
-})));
+}));
 
 /*
 Agora declare outra variáveis chamadas `subtraction`, `multiplication`,
