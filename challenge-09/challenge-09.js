@@ -123,8 +123,8 @@ console.log(division(function(number1, number2){
     return number1 / number2;
 }));
 
-console.log( 'O resto da divisão é:' );
-console.log(mode(function(number1, number2){
+console.log( 'O resto da divisão é:' ); 
+console.log(mod(function(number1, number2){
     return number1 % number2;
 }));
 
