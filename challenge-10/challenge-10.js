@@ -19,11 +19,11 @@ console.log( five + ' e numero?', typeof five === 'number');
 //5 e numero? true
 //undefined
 
-var concat = String(10 + 10);
+var concat = String(10) + 10;
 //undefined
 console.log( '"' + concat + '" é uma string? E é igual a "1010"?', typeof concat === 'string' );
-//"20" é uma string? E é igual a "1010"? true
-
+//"1010" é uma string? E é igual a "1010"? true
+//undefined
 /*
 Voltando ao exemplo da calculadora, vamos utilizar mais uma abordagem
 funcional, mas dessa vez, separando algumas responsabilidades.
