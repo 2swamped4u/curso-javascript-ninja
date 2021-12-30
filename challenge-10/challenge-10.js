@@ -34,7 +34,7 @@ função receberá dois parâmetros e retornará a operação referente à sua
 propriedade, usando os valores passados por parâmetro.
 */
 
-var = operation {
+var operation = {
     '+': function(x, y){
         return x + y;
     },
@@ -46,12 +46,11 @@ var = operation {
     },
     '/': function(x, y) {
         return x / y;
+    }, 
+    '%': function(x, y) {
+        return x % y;
     }
-
-
-
-
-}
+};
 
 /*
 Crie uma função chamada `isOperatorValid`, que receberá um operador por
@@ -63,7 +62,11 @@ parâmetro a ela é válido, ou seja, se ele é igual a '+', '-', '*', '/' ou
 Caso contrário, "false".
 - O desafio é fazer o retorno sem usar "if" ou "switch".
 */
-// ?
+function isOperatorValid(operator) {
+    
+
+
+}
 
 /*
 Agora vamos criar a calculadora.
