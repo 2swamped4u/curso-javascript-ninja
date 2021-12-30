@@ -63,11 +63,20 @@ Caso contrário, "false".
 - O desafio é fazer o retorno sem usar "if" ou "switch".
 */
 function isOperatorValid(operator) {
-    
-
-
+    return !!operation[operator]
 }
-
+//undefined
+//isOperatorValid('+')
+//true
+// isOperatorValid('-')
+//true
+//isOperatorValid('*')
+//true
+//isOperatorValid('%')
+//true
+//isOperatorValid('/')
+//isOperatorValid()
+//false
 /*
 Agora vamos criar a calculadora.
 - Crie uma função chamada `calculator`, que receberá como parâmetro um
