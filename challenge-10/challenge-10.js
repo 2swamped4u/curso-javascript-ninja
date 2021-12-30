@@ -33,7 +33,8 @@ funcional, mas dessa vez, separando algumas responsabilidades.
 função receberá dois parâmetros e retornará a operação referente à sua
 propriedade, usando os valores passados por parâmetro.
 */
-// ?
+
+
 
 /*
 Crie uma função chamada `isOperatorValid`, que receberá um operador por
