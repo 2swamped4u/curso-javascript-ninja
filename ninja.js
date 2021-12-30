@@ -1,39 +1,9 @@
-/*function myFunction() {
-	var number1 = 1;
-	var number2 = 2;
-	var sum = undefined;
-	return sum();
-	sum = function sum() {
-		...
-	}
-}*/
-
-//----------
-
-/*function myFunction() {
-	function sum() {
-		return 4 + 2;
-	}
-	console.log(sum());
-	console.log(sum());
+function subtract(num1, num2) {
+	if(num1  === null ) {
+		return 'Nao entre com valores nulos!';
 }
-console.log( myFunction() );
-*/
-
-/*function myFunction() {
-	var number1 = 10;
-	var number2 = 10;
-	function sum() {
-	return number1 + number2;
-	}
-	if( sum() === 20){
-		return 'equal to 20';
-	}
-	return 'no change ';
+return num1 - num2;
 }
-console.log( myFunction() );
-*/
+console.log(subtract(10,5));
+console.log( subtract (null, 2));
 
-(function() {
-	console.log( 1 + 2 );
-}());
