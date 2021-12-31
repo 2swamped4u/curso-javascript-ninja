@@ -153,8 +153,14 @@ parâmetros para o método "log" de "console":
 - O segundo, a função de soma, passando os dois operandos.
 - Se "sum" for "false", mostrar no console a mensagem de erro.
 */
-// ?
-
+if(sum) {
+    number1 = 22;
+    number2 = 100;
+    console.log(showOperationMessage(operationSignal, number1, number2), sum(number1, number2);
+    else{
+        return 
+    }
+}
 /*
 Repita desde o "PASSO 2" com as operações de subtração, multiplicação,
 divisão e resto. Crie variáveis com os nomes "subtraction",
