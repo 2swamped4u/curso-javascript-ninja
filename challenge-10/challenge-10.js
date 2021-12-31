@@ -129,7 +129,9 @@ PASSO 1:
 - Declare 3 variáveis: "number1" e "number2", iniciando com valor zero, e
 "operationSignal", sem valor por enquanto.
 */
-// ?
+var number1 = 0;
+var number2 = 0;
+var operationSignal;
 
 /*
 PASSO 2:
@@ -137,8 +139,8 @@ Atribua à variável operationSignal o operador de soma, e declare uma
 variável chamada "sum", que receba a função "calculator", passando por
 parâmetro a variável que recebeu o sinal da operação.
 */
-// ?
-
+operationSignal = '+';
+var sum = calculator(operationSignal);
 /*
 PASSO 3:
 "sum" agora é uma função, e, se o sinal correto não foi passado para a
