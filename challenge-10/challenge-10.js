@@ -5,8 +5,6 @@ Crie uma IIFE que envolva todo esse arquivo (inclusive esse comentário),
 e faça a indentação correta.
 */
 
-
-
 /*
 Sem alterar os códigos nos `console.log` abaixo, faça com que o retorno
 deles seja "true", usando os Wrapper Objects como "conversores" nos valores
@@ -18,7 +16,6 @@ var five = Number('5');
 console.log( five + ' e numero?', typeof five === 'number');
 //5 e numero? true
 //undefined
-
 var concat = String(10) + 10;
 //undefined
 console.log( '"' + concat + '" é uma string? E é igual a "1010"?', typeof concat === 'string' );
@@ -64,7 +61,7 @@ Caso contrário, "false".
 */
 function isOperatorValid(operator) {
     return !!operation[operator]
-}
+};
 //undefined
 //isOperatorValid('+')
 //true
@@ -101,6 +98,8 @@ function calculator(operator) {
         return operation[operator](x, y);
     };
 }
+//> operation['+'](5,5)
+//10 
 
 /*
 Crie uma função chamada "showOperationMessage" que recebe três parâmetros:
@@ -109,7 +108,9 @@ deve ser a frase:
 'A operação [NUMBER1] [OPERATOR] [NUMBER2] =';
 Essa função mostrará a mensagem da operação que criaremos mais abaixo.
 */
-// ?
+function showOperationMessage(operator, num1, num2) {
+    return ('A operacao ' + num1 + ' ' + operator + ' ' + num2 + ' =', );
+}
 
 /*
 Crie uma função chamada "showErrorMessage" que recebe um parâmetro: o
