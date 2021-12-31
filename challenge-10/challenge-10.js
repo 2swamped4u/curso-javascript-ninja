@@ -157,10 +157,10 @@ if(sum) {
     number1 = 122;
     number2 = 100;
     console.log(showOperationMessage(operationSignal, number1, number2), sum(number1, number2));
+}
     else{
         console.log(showErrorMessage(operationSignal));
     }
-}
 /*
 Repita desde o "PASSO 2" com as operações de subtração, multiplicação,
 divisão e resto. Crie variáveis com os nomes "subtraction",
