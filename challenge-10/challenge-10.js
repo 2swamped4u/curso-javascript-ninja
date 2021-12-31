@@ -166,7 +166,55 @@ Repita desde o "PASSO 2" com as operações de subtração, multiplicação,
 divisão e resto. Crie variáveis com os nomes "subtraction",
 "multiplication", "division" e "mod".
 */
-// ?
+
+operationSignal = '-';
+var subtraction = calculator(operationSignal);
+
+if(subtraction) {
+    number1 = 55;
+    number2 = 33;
+    console.log(showOperationMessage(operationSignal, number1, number2), subtraction(number1, number2));
+}
+    else{
+        console.log(showErrorMessage(operationSignal));
+    }
+
+operationSignal = '/';
+var division = calculator(operationSignal);
+
+if(division) {
+    number1 = 77;
+    number2 = 7;
+    console.log(showOperationMessage(operationSignal, number1, number2), division(number1, number2));
+}
+    else{
+        console.log(showErrorMessage(operationSignal));
+    }
+
+operationSignal = '*';
+var multiplication = calculator(operationSignal);
+
+if(multiplication) {
+    number1 = 15;
+    number2 = 1000;
+    console.log(showOperationMessage(operationSignal, number1, number2), multiplication(number1, number2));
+}
+    else{
+        console.log(showErrorMessage(operationSignal));
+    }
+
+operationSignal = '%';
+var mod = calculator(operationSignal);
+
+if(mod) {
+    number1 = 1;
+    number2 = 2;
+    console.log(showOperationMessage(operationSignal, number1, number2), mod(number1, number2));
+}
+    else{
+        console.log(showErrorMessage(operationSignal));
+    }
+
 
 /*
 Repita o PASSO 2 novamente, mas passando um operador inválido, para ver se
