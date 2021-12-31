@@ -158,7 +158,7 @@ if(sum) {
     number2 = 100;
     console.log(showOperationMessage(operationSignal, number1, number2), sum(number1, number2);
     else{
-        return 
+        console.log(showErrorMessage(operationSignal));
     }
 }
 /*
