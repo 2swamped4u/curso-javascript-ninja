@@ -98,7 +98,7 @@ function calculator(operator) {
         return operation[operator](x, y);
     };
 }
-//> operation['+'](5,5)
+//operation['+'](5,5)
 //10 
 
 /*
