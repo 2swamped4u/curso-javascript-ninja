@@ -220,7 +220,17 @@ if(mod) {
 Repita o PASSO 2 novamente, mas passando um operador inválido, para ver se
 a mensagem de erro será mostrada no console.
 */
-// ?
 
+operationSignal = 'vai dar errado';
+var invalid = calculator(operationSignal);
+
+if(invalid) {
+    number1 = 0;
+    number2 = 0;
+    console.log(showOperationMessage(operationSignal, number1, number2), invalid(number1, number2));
+}
+    else{
+        console.log(showErrorMessage(operationSignal));
+    }
 
 });
