@@ -109,16 +109,19 @@ deve ser a frase:
 Essa função mostrará a mensagem da operação que criaremos mais abaixo.
 */
 function showOperationMessage(operator, num1, num2) {
-    return ('A operacao ' + num1 + ' ' + operator + ' ' + num2 + ' =', );
+    return ('A operacao ' + num1 + ' ' + operator + ' ' + num2 + ' = ' + operation[operator](num1, num2));
 }
-
+//showOperationMessage('+', 3, 2)
+//A operacao 3 + 2 = 5'
 /*
 Crie uma função chamada "showErrorMessage" que recebe um parâmetro: o
 operador da operação cálculo, quando a operação não for válida.
 Essa função deverá retornar a frase:
 'Operação "[OPERATOR]" não permitida!'
 */
-// ?
+function showErrorMessage(operator) {
+    return 'Operação' + operator + ' não permitida!';
+    }
 
 /*
 Nossa calculadora está pronta! Agora vamos testá-la:
