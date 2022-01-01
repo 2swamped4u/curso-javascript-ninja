@@ -91,7 +91,7 @@ function calculator(operator) {
         return false;
     }
     return function (x, y) {
-        if(typeof x !== number || typeof y !== 'number' ){
+        if(typeof x !== 'number' || typeof y !== 'number' ){
             return false;
         }
 
@@ -215,7 +215,6 @@ if(mod) {
         console.log(showErrorMessage(operationSignal));
     }
 
-
 /*
 Repita o PASSO 2 novamente, mas passando um operador inválido, para ver se
 a mensagem de erro será mostrada no console.
@@ -234,3 +233,4 @@ if(invalid) {
     }
 
 });
+
