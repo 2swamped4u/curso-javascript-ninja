@@ -202,4 +202,4 @@ if(invalid) {
     else{
         console.log(showErrorMessage(operationSignal));
     }
-});
+})();
