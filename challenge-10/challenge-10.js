@@ -12,15 +12,9 @@ das variáveis. Analise o que está sendo impresso no console para saber como
 resolver o problema corretamente.
 */
 var five = Number('5');
-//undefined
 console.log( five + ' e numero?', typeof five === 'number');
-//5 e numero? true
-//undefined
 var concat = String(10) + 10;
-//undefined
 console.log( '"' + concat + '" é uma string? E é igual a "1010"?', typeof concat === 'string' );
-//"1010" é uma string? E é igual a "1010"? true
-//undefined
 /*
 Voltando ao exemplo da calculadora, vamos utilizar mais uma abordagem
 funcional, mas dessa vez, separando algumas responsabilidades.
@@ -30,7 +24,6 @@ funcional, mas dessa vez, separando algumas responsabilidades.
 função receberá dois parâmetros e retornará a operação referente à sua
 propriedade, usando os valores passados por parâmetro.
 */
-
 var operation = {
     '+': function(x, y) { 
         return x + y;
@@ -48,7 +41,6 @@ var operation = {
         return x % y;
      },
 }
-
 /*
 Crie uma função chamada `isOperatorValid`, que receberá um operador por
 parâmetro.
@@ -62,18 +54,6 @@ Caso contrário, "false".
 function isOperatorValid(operator) {
     return !!operation[operator]
 };
-//undefined
-//isOperatorValid('+')
-//true
-// isOperatorValid('-')
-//true
-//isOperatorValid('*')
-//true
-//isOperatorValid('%')
-//true
-//isOperatorValid('/')
-//isOperatorValid()
-//false
 /*
 Agora vamos criar a calculadora.
 - Crie uma função chamada `calculator`, que receberá como parâmetro um
@@ -98,9 +78,6 @@ function calculator(operator) {
         return operation[operator](x, y);
     };
 }
-//operation['+'](5,5)
-//10 
-
 /*
 Crie uma função chamada "showOperationMessage" que recebe três parâmetros:
 - o operador, o primeiro número e o segundo número. O retorno da função
@@ -111,8 +88,6 @@ Essa função mostrará a mensagem da operação que criaremos mais abaixo.
 function showOperationMessage(operator, num1, num2) {
     return ('A operacao ' + num1 + ' ' + operator + ' ' + num2 + ' = ' + operation[operator](num1, num2));
 }
-//showOperationMessage('+', 3, 2)
-//A operacao 3 + 2 = 5'
 /*
 Crie uma função chamada "showErrorMessage" que recebe um parâmetro: o
 operador da operação cálculo, quando a operação não for válida.
@@ -122,7 +97,6 @@ Essa função deverá retornar a frase:
 function showErrorMessage(operator) {
     return 'Operação' + operator + ' não permitida!';
     }
-
 /*
 Nossa calculadora está pronta! Agora vamos testá-la:
 PASSO 1:
@@ -132,7 +106,6 @@ PASSO 1:
 var number1 = 0;
 var number2 = 0;
 var operationSignal;
-
 /*
 PASSO 2:
 Atribua à variável operationSignal o operador de soma, e declare uma
@@ -166,7 +139,6 @@ Repita desde o "PASSO 2" com as operações de subtração, multiplicação,
 divisão e resto. Crie variáveis com os nomes "subtraction",
 "multiplication", "division" e "mod".
 */
-
 operationSignal = '-';
 var subtraction = calculator(operationSignal);
 
@@ -214,7 +186,6 @@ if(mod) {
     else{
         console.log(showErrorMessage(operationSignal));
     }
-
 /*
 Repita o PASSO 2 novamente, mas passando um operador inválido, para ver se
 a mensagem de erro será mostrada no console.
@@ -231,6 +202,4 @@ if(invalid) {
     else{
         console.log(showErrorMessage(operationSignal));
     }
-
 });
-
