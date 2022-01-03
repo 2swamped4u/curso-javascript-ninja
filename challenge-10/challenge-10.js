@@ -58,7 +58,7 @@ function isOperatorValid(operator) {
 Agora vamos criar a calculadora.
 - Crie uma função chamada `calculator`, que receberá como parâmetro um
 operador;
-- Se o operador não for válido, a função deve retornar "false";
+- Se o operador não for válido, a função deve retornar "false";!!
 - Se o operador for válido, retornar uma segunda função que receberá dois
 parâmetros;
 - Se algum dos parâmetros não for um número, retornar "false";
@@ -95,7 +95,7 @@ Essa função deverá retornar a frase:
 'Operação "[OPERATOR]" não permitida!'
 */
 function showErrorMessage(operator) {
-    return 'Operação' + operator + ' não permitida!';
+    return 'Operação "' + operator + '" não permitida!';
     }
 /*
 Nossa calculadora está pronta! Agora vamos testá-la:
