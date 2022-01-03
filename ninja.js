@@ -1,9 +1,27 @@
-function subtract(num1, num2) {
-	if(num1  === null ) {
-		return 'Nao entre com valores nulos!';
+/*
+var counter = 10;
+do {
+	console.log( counter++ );
 }
-return num1 - num2;
+
+while( counter < 10 );
+*/
+
+/*
+for ( var i = 1; i < 10; i++) {
+	console.log(i);
 }
-console.log(subtract(10,5));
-console.log( subtract (null, 2));
+*/
+
+var car = {
+	brand: 'VW',
+	model: 'Gol',
+	year: 2020
+};
+
+for( var prop in car ) {
+	console.log( car[prop] );
+}
+
+console.log('doors in car?', 'doors' in car );
 
