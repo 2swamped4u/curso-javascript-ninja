@@ -1,27 +1,9 @@
-/*
-var counter = 10;
-do {
-	console.log( counter++ );
-}
-
-while( counter < 10 );
-*/
-
-/*
-for ( var i = 1; i < 10; i++) {
+var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for ( var i = 0; i < arr.length; i++ ) {
+	if( i % 2 !== 0 ) {
+		continue;
+	}
 	console.log(i);
 }
-*/
 
-var car = {
-	brand: 'VW',
-	model: 'Gol',
-	year: 2020
-};
-
-for( var prop in car ) {
-	console.log( car[prop] );
-}
-
-console.log('doors in car?', 'doors' in car );
-
+console.log( "fim do for" );
