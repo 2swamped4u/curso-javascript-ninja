@@ -1,5 +1,7 @@
 // Envolva todo o código desse arquivo em uma IIFE (incluindo esse comentário).
 
+(function() {
+
 /*
 Crie uma variável chamada `once`, que recebe `false` como seu valor.
 Crie um loop que execute enquanto essa variável for verdadeira. Dentro do
@@ -52,3 +54,5 @@ Mostrar no console os números do array.
 */
 console.log( 'Pares de 0 a 20:' );
 // ?
+
+}()
