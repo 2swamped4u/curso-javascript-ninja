@@ -40,7 +40,14 @@ esse objeto tem.
 Após o loop, mostre a frase:
 'The person has [COUNTER] properties'
 */
-// ?
+
+var counter = 0;
+for (var prop in person)
+{
+		console.log('The ' + prop + ' of person is ' + person[prop] + ' ')
+}
+
+console.log 
 
 /*
 Crie uma função chamada `moreThan`, que vai verificar se a pessoa (objeto
