@@ -10,19 +10,21 @@ loop, mostre no console a mensagem:
 Qual loop você deve usar para que essa mensagem seja mostrada no console?
 */
 var once = false;
-while (once === true) {
 
+do {
 	console.log('Entrou ao menos uma vez!')
+	}
+	while (once);
 
-}
-// while loop
+// do ++ while loop
 
 /*
 Crie um objeto chamado `person`, que receba as seguintes propriedades:
 - 'name', 'age', 'weight' e 'birthday'. Preencha com os valores corretos
 para o nome, idade, peso e data de nascimento dessa pessoa.
 */
-// ?
+
+
 
 /*
 Use um loop para percorrer o objeto criado acima, mostrando no console
