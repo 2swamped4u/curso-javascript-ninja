@@ -10,7 +10,12 @@ loop, mostre no console a mensagem:
 Qual loop você deve usar para que essa mensagem seja mostrada no console?
 */
 var once = false;
+while (once === true) {
 
+	console.log('Entrou ao menos uma vez!')
+
+}
+// while loop
 
 /*
 Crie um objeto chamado `person`, que receba as seguintes propriedades:
@@ -56,4 +61,4 @@ Mostrar no console os números do array.
 console.log( 'Pares de 0 a 20:' );
 // ?
 
-})
+}())
