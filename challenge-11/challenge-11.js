@@ -24,7 +24,12 @@ Crie um objeto chamado `person`, que receba as seguintes propriedades:
 para o nome, idade, peso e data de nascimento dessa pessoa.
 */
 
-
+var person = {
+	name: 'Javier Sanchez',
+	age: 30,
+	weight: '88 kg',
+	birthday: 'August 17, 1991'
+};
 
 /*
 Use um loop para percorrer o objeto criado acima, mostrando no console
