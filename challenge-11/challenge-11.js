@@ -27,7 +27,7 @@ para o nome, idade, peso e data de nascimento dessa pessoa.
 var person = {
 	name: 'Javier Sanchez',
 	age: 30,
-	weight: '88 kg',
+	weight: '85 kg',
 	birthday: 'August 17, 1991'
 };
 
@@ -58,7 +58,7 @@ Após a função, mostrar a mensagem no console:
 */
 
 function moreThan(age) {
-	return person.age > age;
+	return person.age > 25 ? true : false;
 	}
 console.log('The person has more than 25 years old?', moreThan(25));
 
