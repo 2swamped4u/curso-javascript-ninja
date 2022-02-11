@@ -1,7 +1,6 @@
 /*
 Envolva todo o conteúdo desse arquivo em uma IIFE.
 */
-// do this now
 (function() {
 /*
 Crie um objeto chamado `person`, com as propriedades:
