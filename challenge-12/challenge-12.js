@@ -16,7 +16,7 @@ var person = {
     age: 30
 };
 
-console.log( 'Propriedades de ' + person.name + ': ' );
+console.log( 'Propriedades de ' + person.name  + ': '+ person.prop);
 
 /*
 Mostre no console, em um array, todas as propriedades do objeto acima.
