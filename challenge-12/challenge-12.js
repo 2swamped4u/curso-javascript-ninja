@@ -28,7 +28,8 @@ console.log('Propriedades de "Javier": ', Object.keys(person));
 /*
 Crie um array vazio chamado `books`.
 */
-// ?
+
+var books = [];
 
 /*
 Adicione nesse array 3 objetos, que serão 3 livros. Cada livro deve ter a
@@ -36,13 +37,23 @@ seguintes propriedades:
 `name`: String
 `pages`: Number
 */
-// ?
-console.log( '\nLista de livros:' );
+
+books.push({name:'Catch 22', pages: 175});
+books.push({name:'1984', pages: 300});
+books.push({name:'Sic mundus creatus est', pages: 1000});
+
+console.log( '\nLista de livros:', );
 
 /*
 Mostre no console todos os livros.
 */
-// ?
+//i want to type many lines of code
+//this is the function that i wish to type
+//HIGHLIGHT THEN CTRL+SHIFT+L//
+//i want to type many lines of code
+//this is the function that i wish to type
+
+console.log(books);
 
 console.log( '\nLivro que está sendo removido:' );
 /*
