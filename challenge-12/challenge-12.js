@@ -53,12 +53,16 @@ Mostre no console todos os livros.
 //this is the function that i wish to type
 
 console.log(books);
+console.log(books);
+console.log(books);
+console.log(books);
+console.log(books);
 
 console.log( '\nLivro que está sendo removido:' );
 /*
 Remova o último livro, e mostre-o no console.
 */
-// ?
+console.log(books.pop());
 
 console.log( '\nAgora sobraram somente os livros:' );
 /*
