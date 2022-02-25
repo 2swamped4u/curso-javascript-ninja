@@ -53,10 +53,6 @@ Mostre no console todos os livros.
 //this is the function that i wish to type
 
 console.log(books);
-console.log(books);
-console.log(books);
-console.log(books);
-console.log(books);
 
 console.log( '\nLivro que está sendo removido:' );
 /*
